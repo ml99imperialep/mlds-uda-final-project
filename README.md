@@ -14,7 +14,7 @@ The second dataset [characters.csv](./data/characters.csv) contains the name of 
 
 ## Github Repository
 
-The code of the project is fully stored in the public repository: 
+The code of the project is fully stored in the public repository  [ml99imperialep](https://github.com/ml99imperialep/mlds-uda-final-project): 
 
 2 Folders:
 
