@@ -23,15 +23,15 @@ The code of the project is fully stored in the public repository:
 
 2 Jupyter notebooks (Python 3.10.13):
 
-- [result.ipynb](./result.ipynb): produces results of [eda](./images/eda/) and [knowledge_graph](./images/knowledge_graph/)
+- [eda_kg.ipynb](./eda_kg.ipynb): produces results of [eda](./images/eda/) and [knowledge_graph](./images/knowledge_graph/)
 - [social_network.ipynb](./social_network.ipynb): produces results of [social_network](./images/social_network/)
 
 It must be noted that the two notebooks are independent from each other.
 
 3 Python files (Python 3.10.13):
 
-- [eda_utils.py](./eda_utils.py) ( functions for [result.ipynb](./result.ipynb))
-- [kg_utils.py](./kg_utils.py) ( functions for [result.ipynb](./result.ipynb))
+- [eda_utils.py](./eda_utils.py) ( functions for [eda_kg.ipynb](./eda_kg.ipynb))
+- [kg_utils.py](./kg_utils.py) ( functions for [eda_kg.ipynb](./eda_kg.ipynb))
 - [sn_utils.py](./sn_utils.py) (functions for [social_network.ipynb](./social_network.ipynb))
 
 
