@@ -4,7 +4,7 @@ _Imperial College London - MSc Machine Learning and Data Science Year 2._
 
 We consider the seven Harry Potter novels written by J.K Rowling and apply text analysis. 
 
-Knowledge graphs and social networks/character networks are created on the basis of this text corpus.
+Knowledge graphs and social networks/character networks are created on the basis of this Harry Potter text corpus.
 
 ## Dataset(s)
 
