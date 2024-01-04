@@ -10,7 +10,7 @@ Knowledge graphs and social networks/character networks are created on the basis
 
 Seven Harry Potter novels: HPBook1.txt,..,HPBook7.txt downloaded from [jacobs repository](https://github.com/ErikaJacobs/Harry-Potter-Text-Mining/tree/master/Book%20Text), which is a public repository as well.
 
-The second dataset [character.csv](./data/character.csv) contains the name of the characters and their variation downloaded from [ohumu repository](https://github.com/ohumu/HarryPotterNetwork/blob/main/characters.csv)
+The second dataset [characters.csv](./data/characters.csv) contains the name of the characters and their variation downloaded from [ohumu repository](https://github.com/ohumu/HarryPotterNetwork/blob/main/characters.csv)
 
 ## Github Repository
 
@@ -18,7 +18,7 @@ The code of the project is fully stored in the public repository:
 
 2 Folders:
 
-- [data](./data/): contains the datasets [character.csv](./data/character.csv) and [HPBook1.txt](./data/HPBook1.txt), [HPBook2.txt](./data/HPBook2.txt), [HPBook3.txt](./data/HPBook3.txt), [HPBook4.txt](./data/HPBook4.txt), [HPBook5.txt](./data/HPBook5.txt), [HPBook6.txt](./data/HPBook6.txt), [HPBook7.txt](./data/HPBook7.txt)  (6.9 MB)
+- [data](./data/): contains the datasets [characters.csv](./data/characters.csv) and [HPBook1.txt](./data/HPBook1.txt), [HPBook2.txt](./data/HPBook2.txt), [HPBook3.txt](./data/HPBook3.txt), [HPBook4.txt](./data/HPBook4.txt), [HPBook5.txt](./data/HPBook5.txt), [HPBook6.txt](./data/HPBook6.txt), [HPBook7.txt](./data/HPBook7.txt)  (6.9 MB)
 - [images](./images/): divided into 3 subfolders:  [eda](./images/eda/),  [knowledge_graph](./images/knowledge_graph/),  [social_network](./images/social_network/) contains all images which are produced in the jupyter notebooks (5.7 MB for the image folder)
 
 2 Jupyter notebooks (Python 3.10.13):
