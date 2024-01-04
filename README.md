@@ -68,5 +68,5 @@ Be careful to install it in the correct folder.
 ## Additional information
 This notebook is developed on Github codespaces and tested on a desktop computer:
 - Github codespace: 4-core, 16GB RAM, 32GB, European Western Area
-- 8 GB 1867 MHz DDR3; 3,1 GHz Quad-Core Intel Core i5
+- Desktop Computer: 8 GB 1867 MHz DDR3; 3,1 GHz Quad-Core Intel Core i5
 
