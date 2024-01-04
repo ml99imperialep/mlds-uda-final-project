@@ -8,7 +8,7 @@ Knowledge graphs and social networks/character networks are created on the basis
 
 ## Dataset(s)
 
-Seven Harry Potter novels: HPBook1.txt,..,HPBook7.txt downloaded from [jacobs repository](https://github.com/ErikaJacobs/Harry-Potter-Text-Mining/tree/master/Book%20Text), which is a public repository as well.
+Seven Harry Potter novels downloaded from [jacobs repository](https://github.com/ErikaJacobs/Harry-Potter-Text-Mining/tree/master/Book%20Text), which is a public repository as well.
 
 The second dataset [characters.csv](./data/characters.csv) contains the name of the characters and their variation downloaded from [ohumu repository](https://github.com/ohumu/HarryPotterNetwork/blob/main/characters.csv)
 
