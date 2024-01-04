@@ -41,7 +41,7 @@ It must be noted that the two notebooks are independent from each other.
 
 
 ## Running the code
-It is recommended to use a (python) virtual environment to manage the dependencies called [`pyenv`](https://github.com/pyenv/pyenv) was used to test this project on a desktop computer and can be installed using the [pyenv installer](https://github.com/pyenv/pyenv-installer). A virtualenvironment with Python version 3.10.13 was used for this project.
+It is recommended to use a (python) virtual environment to manage the dependencies called ['pyenv'](https://github.com/pyenv/pyenv) was used to test this project on a desktop computer and can be installed using the [pyenv installer](https://github.com/pyenv/pyenv-installer). A virtualenvironment with Python version 3.10.13 was used for this project.
 
 The libraries needed to run the notebooks are stored in the following textfile ['requirements.txt'](./requirements.txt). (it is the same for both notebooks)
 
