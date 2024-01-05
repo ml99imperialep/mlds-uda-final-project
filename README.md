@@ -19,27 +19,27 @@ All datasets were downloaded for this project at 2023-12-13 22:35 (GMT).
 
 The code of the project is fully stored in the public repository  [ml99imperialep](https://github.com/ml99imperialep/mlds-uda-final-project): 
 
-3 Folders:
+3 folders:
 
 - [data](./data/): contains the datasets [characters.csv](./data/characters.csv) and [HPBook1.txt](./data/HPBook1.txt), [HPBook2.txt](./data/HPBook2.txt), [HPBook3.txt](./data/HPBook3.txt), [HPBook4.txt](./data/HPBook4.txt), [HPBook5.txt](./data/HPBook5.txt), [HPBook6.txt](./data/HPBook6.txt), [HPBook7.txt](./data/HPBook7.txt)  (6.9 MB)
 - [images](./images/): divided into 3 subfolders:  [eda](./images/eda/),  [knowledge_graph](./images/knowledge_graph/),  [social_network](./images/social_network/) contains all images which are produced in the jupyter notebooks (5.7 MB for the image folder)
 - [report_media](./report_media/): all image included in the report of this project (It must be noted that in the attached report not all images can be included, therefore this folder is created with all images, which are included in the report)
 
-2 Jupyter notebooks (Python 3.10.13):
+2 jupyter notebooks (Python 3.10.13):
 
 - [eda_kg.ipynb](./eda_kg.ipynb): produces results of [eda](./images/eda/) and [knowledge_graph](./images/knowledge_graph/)
 - [social_network.ipynb](./social_network.ipynb): produces results of [social_network](./images/social_network/)
 
 It must be noted that the two notebooks are independent from each other.
 
-3 Python files (Python 3.10.13):
+3 python files (Python 3.10.13):
 
 - [eda_utils.py](./eda_utils.py) ( functions for [eda_kg.ipynb](./eda_kg.ipynb) and one function for [social_network.ipynb](./social_network.ipynb) to clean the dataset, tokenize it, count the number of words and get gender and character specific words)
 - [kg_utils.py](./kg_utils.py) ( functions for [eda_kg.ipynb](./eda_kg.ipynb) to derive entities and relations for knowledge graphs)
 - [sn_utils.py](./sn_utils.py) (functions for [social_network.ipynb](./social_network.ipynb) to define the label of characters related to their sentiments, e.g. if they are positive related to each other, negative or neutral)
 
 
-1 Textfile
+1 textfile
 
 - [requirements.txt](./requirements.txt): includes all versions of python libraries (see Running the code section)
 
