@@ -63,13 +63,16 @@ def get_entities(sent, nlp):
 
     return [ent1.strip(), ent2.strip()]
 
-## fully copied from: https://www.kaggle.com/code/pavansanagapati/knowledge-graph-nlp-tutorial-bert-spacy-nltk
+## copied from: https://www.kaggle.com/code/pavansanagapati/knowledge-graph-nlp-tutorial-bert-spacy-nltk, slightly adjusted
 
 def get_relation(sent, nlp):
-
+    """
+    Generate the relations between sources and target for the graphs
+    """
+    # apply nlp on sentence
     doc = nlp(sent)
 
-    # Matcher class object 
+    # ues of spaCy: Matcher class object 
     matcher = Matcher(nlp.vocab)
 
     #define the pattern 
@@ -85,6 +88,7 @@ def get_relation(sent, nlp):
     matches = matcher(doc)
     k = len(matches) - 1
 
+    # use span to define the matches
     span = doc[matches[k][1]:matches[k][2]] 
 
     return(span.text)
