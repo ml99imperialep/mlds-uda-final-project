@@ -45,7 +45,7 @@ It must be noted that the two notebooks are independent from each other.
 
 1 pdf file
 
-- [report](./02363795_UDA_final_project.pdf) Report of this project
+- [report](./02363795_UDA_final_project_ep.pdf) Report of this project
 
 
 ## Running the code
