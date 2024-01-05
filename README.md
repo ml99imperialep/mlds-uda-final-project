@@ -12,6 +12,8 @@ Seven Harry Potter novels downloaded from [jacobs repository](https://github.com
 
 The second dataset [characters.csv](./data/characters.csv) contains the name of the characters and their variation downloaded from [ohumu repository](https://github.com/ohumu/HarryPotterNetwork/blob/main/characters.csv)
 
+All datasets were downloaded for this project at 2023-12-13 22:35 (GMT).
+
 ## Github Repository
 
 The code of the project is fully stored in the public repository  [ml99imperialep](https://github.com/ml99imperialep/mlds-uda-final-project): 
@@ -30,7 +32,7 @@ It must be noted that the two notebooks are independent from each other.
 
 3 Python files (Python 3.10.13):
 
-- [eda_utils.py](./eda_utils.py) ( functions for [eda_kg.ipynb](./eda_kg.ipynb))
+- [eda_utils.py](./eda_utils.py) ( functions for [eda_kg.ipynb](./eda_kg.ipynb) and one function for [social_network.ipynb](./social_network.ipynb))
 - [kg_utils.py](./kg_utils.py) ( functions for [eda_kg.ipynb](./eda_kg.ipynb))
 - [sn_utils.py](./sn_utils.py) (functions for [social_network.ipynb](./social_network.ipynb))
 
