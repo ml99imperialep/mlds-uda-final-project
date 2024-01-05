@@ -49,7 +49,7 @@ def get_entities(sent, nlp):
 
 
 
-##  copied from: https://www.kaggle.com/code/pavansanagapati/knowledge-graph-nlp-tutorial-bert-spacy-nltk
+##  inspired by: https://www.kaggle.com/code/pavansanagapati/knowledge-graph-nlp-tutorial-bert-spacy-nltk
 
 def get_relation(sent, nlp):
     """
