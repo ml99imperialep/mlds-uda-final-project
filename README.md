@@ -1,4 +1,4 @@
-# Unstructured Data Analysis-Final Project: Harry Potter and Friends (?)
+# Unstructured Data Analysis-Final Project: Harry Potter and Friends(?)
 
 _Imperial College London - MSc Machine Learning and Data Science Year 2._
 
@@ -32,9 +32,9 @@ It must be noted that the two notebooks are independent from each other.
 
 3 Python files (Python 3.10.13):
 
-- [eda_utils.py](./eda_utils.py) ( functions for [eda_kg.ipynb](./eda_kg.ipynb) and one function for [social_network.ipynb](./social_network.ipynb))
-- [kg_utils.py](./kg_utils.py) ( functions for [eda_kg.ipynb](./eda_kg.ipynb))
-- [sn_utils.py](./sn_utils.py) (functions for [social_network.ipynb](./social_network.ipynb))
+- [eda_utils.py](./eda_utils.py) ( functions for [eda_kg.ipynb](./eda_kg.ipynb) and one function for [social_network.ipynb](./social_network.ipynb) to clean the dataset, tokenize it, count the number of words and get gender and character specific words)
+- [kg_utils.py](./kg_utils.py) ( functions for [eda_kg.ipynb](./eda_kg.ipynb) to derive entities and relations for knowledge graphs)
+- [sn_utils.py](./sn_utils.py) (functions for [social_network.ipynb](./social_network.ipynb) to define the label of characters related to their sentiments, e.g. if they are positive related to each other, negative or neutral)
 
 
 1 Textfile
