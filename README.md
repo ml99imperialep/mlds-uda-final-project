@@ -43,6 +43,10 @@ It must be noted that the two notebooks are independent from each other.
 
 - [requirements.txt](./requirements.txt): includes all versions of python libraries (see Running the code section)
 
+1 pdf file
+
+- [report](./02363795_UDA_final_project.pdf) Report of this project
+
 
 ## Running the code
 It is recommended to use a (python) virtual environment to manage the dependencies called ['pyenv'](https://github.com/pyenv/pyenv) was used to test this project on a desktop computer and can be installed using the [pyenv installer](https://github.com/pyenv/pyenv-installer). A virtualenvironment with Python version 3.10.13 was used for this project. The running time of [eda_kg.ipynb](./eda_kg.ipynb) is around (5-6min). The second notebook, which should be run afterwards for better understanding of the content needs about (16 mins on Desktop Computer) 8 min on Github Codespaces. 
