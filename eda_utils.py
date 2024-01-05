@@ -93,10 +93,11 @@ def get_gender_words(get_words):
         'women': [ "she", "her", "women", "herself"]
     })
 
+    # Calculate the log10 of the rank
     gender_words['male_rank_log10'] = np.log10(gender_words['men'].map(lambda x: get_words.index(x) + 1))
     gender_words['female_rank_log10'] = np.log10(gender_words['women'].map(lambda x: get_words.index(x) + 1))
 
-    # Calculate rank difference log10
+    # Calculate rank difference (in log10)
     gender_words['rank_diff_log10'] = gender_words['male_rank_log10'] - gender_words['female_rank_log10']
 
     rank_diff_log10 = gender_words['rank_diff_log10']
@@ -105,9 +106,9 @@ def get_gender_words(get_words):
     gender_words['label'] = np.where(gender_words['index'] == 'male_rank_log10',gender_words['men'], gender_words['women'])
 
 
-    # Recode index values
+    # Recode the index values to get the right ranks
     gender_words['index'] = gender_words['index'].replace({'male_rank_log10': 'male', 'female_rank_log10': 'female'})
-
+    # Create rank difference column
     gender_words['rank_diff_log10'] = pd.Series(np.array([rank_diff_log10]*2).reshape(1,-1)[0])
 
 
@@ -125,6 +126,7 @@ def get_character_words(get_words):
         'main_neg_character': [ "voldemort", "bad", "negative", "enemy"]
     })
 
+    # Calculate the ranks with log10
     character_words['pos_rank_log10'] = np.log10(character_words['main_pos_character'].map(lambda x: get_words.index(x) + 1))
     character_words['neg_rank_log10'] = np.log10(character_words['main_neg_character'].map(lambda x: get_words.index(x) + 1))
 
@@ -139,7 +141,7 @@ def get_character_words(get_words):
 
     # Recode index values
     character_words['index'] = character_words['index'].replace({'pos_rank_log10': 'pos', 'neg_rank_log10': 'neg'})
-
+    # Create rank difference column 
     character_words['rank_diff_log10'] = pd.Series(np.array([rank_diff_log10]*2).reshape(1,-1)[0])
 
 
