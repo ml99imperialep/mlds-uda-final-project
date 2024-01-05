@@ -13,7 +13,9 @@ from spacy.matcher import Matcher
 ## inspired by : https://www.kaggle.com/code/pavansanagapati/knowledge-graph-nlp-tutorial-bert-spacy-nltk
 
 def get_entities(sent, nlp):
-    
+    """
+    Derive entities for knowledge graphs
+    """
     # define initial variables
     x, y, prev_dep, prev_txt, prefix, modifier = "", "", "", "", "", ""
 
@@ -50,7 +52,9 @@ def get_entities(sent, nlp):
 ##  copied from: https://www.kaggle.com/code/pavansanagapati/knowledge-graph-nlp-tutorial-bert-spacy-nltk
 
 def get_relation(sent, nlp):
-
+    """
+    Derive relations for knowledge graphs
+    """
     doc = nlp(sent)
 
     # Matcher class object 
