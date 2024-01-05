@@ -19,10 +19,11 @@ All datasets were downloaded for this project at 2023-12-13 22:35 (GMT).
 
 The code of the project is fully stored in the public repository  [ml99imperialep](https://github.com/ml99imperialep/mlds-uda-final-project): 
 
-2 Folders:
+3 Folders:
 
 - [data](./data/): contains the datasets [characters.csv](./data/characters.csv) and [HPBook1.txt](./data/HPBook1.txt), [HPBook2.txt](./data/HPBook2.txt), [HPBook3.txt](./data/HPBook3.txt), [HPBook4.txt](./data/HPBook4.txt), [HPBook5.txt](./data/HPBook5.txt), [HPBook6.txt](./data/HPBook6.txt), [HPBook7.txt](./data/HPBook7.txt)  (6.9 MB)
 - [images](./images/): divided into 3 subfolders:  [eda](./images/eda/),  [knowledge_graph](./images/knowledge_graph/),  [social_network](./images/social_network/) contains all images which are produced in the jupyter notebooks (5.7 MB for the image folder)
+- [report_media](./report_media/): all image included in the report of this project (It must be noted that in the attached report not all images can be included, therefore this folder is created with all images, which are included in the report)
 
 2 Jupyter notebooks (Python 3.10.13):
 
